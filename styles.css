@@ -5,13 +5,33 @@ body {
 .navbar{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 16pt 0;
+    width: 330px;
 }
 
-nav ul li {
+.navbar li {
     list-style-type: none;
-    padding: 0 10%;
+    padding: 0 1em;
 }
 
 nav ul li a {
+    color: black;
+}
 
+@media (min-width: 550px) {
+    .navbar {
+        font-size: 1.2em;
+        padding: 16pt 0;
+        width: 400px;
+    }
+}
+
+@media (min-width: 750px) {
+    .navbar {
+        font-size: 1.5em;
+        padding: 16pt 0;
+        width: 500px;
+    }
 }
