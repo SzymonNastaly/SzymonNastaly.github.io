@@ -19,6 +19,35 @@
         </nav>
         <h1>What do I do?</h1>
         <div class="project">
+            <h2>MV-Card</h2>
+            <p>A new project ("startup") which envisions a payment card in the state of Mecklenburg-Vorpommern. It 
+                will count as a tax-free gift by employer for employee ("steuerfreier Sachbezug"). With it we want to strengthen
+                the local solidarity and support local companies.
+            </p>
+            <p>Links:</p>
+            <ul>
+                <li><a href="https://mv-card.com" class="project-link">webpage of the project</a></li>
+            </ul>
+            <p>Status: just started. The website is basically just a landing-page.</p>
+        </div>
+        <div class="project">
+            <h2>KopfÜberWasser (in English: HeadAboveWater)</h2>
+            <p>A coupon-website, on which one could buy coupons for local companies (i.e. restaurants) during the lockdown.
+                Through this the companies got revenues when they couldn't sell. Now, as shops reopen, the buyers of 
+                those coupons can exchange them for goods and services.
+            </p>
+            <p>Links:</p>
+            <ul>
+                <li><a href="https://kopfueberwasser.de" class="project-link">webpage of the project</a></li>
+                <li><a href="https://github.com/mvbuddies/kopfueberwasserde-jekyll" class="project-link">github of the frontend (by J0nas500)</a></li>
+            </ul>
+            <p>Status: archived (reason: no more coupons are being bought, as the lockdown has been lifted).</p>
+            <p>Tech-stack: backend with Django + Postgres. Django also served the registration form. 
+                The homepage and the specific shop pages were static pages served by Netlify. The generation a little bit crazy:
+                Django exports jsons with data from the database. Those jsons are used by jekyll to create the static pages.
+            </p>
+        </div>
+        <div class="project">
             <h2>PlutusOSS</h2>
             <p>An open-source API that provides financial data about public, german companies.</p>
             <p>Links:</p>
