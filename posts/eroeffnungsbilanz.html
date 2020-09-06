@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eröffnungsbilanz</title>
+        <meta lang="de">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../styles.css"> 
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../posts.html">Posts</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>
+                Eröffnungsbilanz mit myebilanz erstellen
+            </h1>
+            <p><strong>Hinweis: Eine große Hilfe ist das myebilanz-Handbuch. <a href="https://www.myebilanz.de/myebilanz.pdf">[hier]</a> kann man darauf zugreifen.</strong></p>
+            <ol>
+                <li>Myebilanz runterladen <a href="https://www.myebilanz.de/000-was-ist-myebilanz.php">[hier]</a>, am Besten unter Windows.
+                    In der Theorie gehts auch mit Wine unter Linux/macOS. Als ich es jedoch unter macOS Catalina + Wine probiert habe, hat es nicht funktioniert. (möglicherweise da unter Catalina keine 32bit Programme mehr funktionieren)</li>
+                <br>
+                <li>ini-Datei erstellen. <a href="../files/bilanz.ini">[Hier]</a> könnt ihr eine Beispiel ini-Datei angucken (diese habe ich verwendet)
+                    Wichtiges dazu: Eingaben, die ihr auf jeden Fall anpassen müssen, habe ich mit einem "!" (Ausrufezeichen, direkt nach dem "=") gekennzeichnet. Einige dieser Eingaben (z.B. "taxnumber") müssen über das myebilanz Programm berechnet werden (unter Extras).</li>
+                <br>
+                <li>csv-Datei erstellen. <a href="../files/data.csv">[Hier]</a> könnt ihr eine Beispiel csv-Datei angucken (diese habe ich verwendet).</li>
+                <br>
+                <li>Unter Programm-Update "Prüfen" und ggf. ein Update installieren (war bei mir auch notwendig, obwohl ich die aktuelle Version von der Website geladen hatte). Möglicherweise wird der automatische Updater nicht funktionieren - einfach den Installer manuell runterladen und das Update einspielen</li>
+                <br>
+                <li>Zum Überprüfen der Inhalte unter Ansicht - HTML die Version als HTML Datei exportieren und gucken ob die Daten stimmen.</li>
+                <br>
+                <li>Dann  zum Überprüfen des Versandes, im Hauptfenster von myebilanz "lokale Validierung" mit PDF starten. Dort sollte es zu keinen Fehlern kommen. Falls Fehler auftauchen, diese entsprechend lösen.
+                    Über Google findet man in den myebilanz-Foren recht viele Infos, aber auch im myebilanz Handbuch.</li>
+                <br>
+                <li>Danach das Gleiche mit der Testsendung.</li>
+                <br>
+                <li>Wenn alles soweit geklappt hat, jetzt nurnoch die Option "Rechtlich verbindliche eBilanz einsenden" auswählen und die Bilanz absenden. Die ausgegebene PDF am besten abspeichern!</li>
+            </ol>
+        </section>
+    </body>
+</html>
