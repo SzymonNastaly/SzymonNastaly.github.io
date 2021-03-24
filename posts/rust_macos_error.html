@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eröffnungsbilanz</title>
+    <meta lang="de">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../posts.html">Posts</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>
+            Version issue in Rust (because of brew)
+        </h1>
+        <p>When trying to run <code>cargo run</code> in my first Rust program, I just encountered this problem:</p>
+        <code>
+error: failed to parse lock file at:<br>
+/[PATH_TO_PROJECT]/rust/projects/guessing_game/Cargo.lock<br>
+
+Caused by:<br>
+invalid serialized PackageId for key `package.dependencies`<br>
+        </code>
+        <p>As it turns out the reason was that rust was installed two times:</p>
+        <p>1. With brew, such that <code>rustc --version</code> = 1.3.7</p>
+        <p>2. With the usual rust installation way, so that I also had version 1.5 (according to <code>rustup</code>)</p>
+        <p>Of course, the brew-rust was being called the whole time. So the simple solution was: <code>brew uninstall rust</code>, so that the other (newer) version remains.</p>
+    </section>
+</body>
+
+</html>
