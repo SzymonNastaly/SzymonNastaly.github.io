@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How to quickly get all the data you need.">
+    <title>Szymon Nastaly | Working with Middle Sized CSV Files</title>
+    
+    <link rel="stylesheet" href="https://szymonnastaly.com/style.css?h=f26958406ec0c820f917">
+    
+    
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;szymonnastaly.com">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Working with Middle Sized CSV Files</h1>
+    
+    <p class="secondary">7 July, 2024</p>
+    
+    <div class="space"></div>
+    <h2 id="first-ideas">First Ideas</h2>
+<p>For my bachelor's thesis, I had to retrieve some data from a CSV file of around 90MB.</p>
+<p>I first tried working with some CSV-focused tools like the 
+<a href="https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv">Rainbow CSV VSCode</a> extension
+or <a href="https://csvfiddle.io/">CSVFiddle.io</a>.</p>
+<p>Both of those support SQL (or at least SQL-like) queries.
+Unfortunately, both tools break at various points, especially with increasing CSV file sizes or more complex queries.</p>
+<h2 id="use-sqlite">Use SQLite</h2>
+<p>In the end, I decided to just use SQLite.</p>
+<ol>
+<li>Create a new SQLite database: <pre data-lang="sql" style="background-color:#1e1e1e;color:#dcdcdc;" class="language-sql "><code class="language-sql" data-lang="sql"><span>sqlite3 </span><span style="color:#b4cea8;">temp</span><span>.</span><span style="color:#b4cea8;">db
+</span></code></pre>
+</li>
+<li>Setting csv mode and creating a table<pre data-lang="sql" style="background-color:#1e1e1e;color:#dcdcdc;" class="language-sql "><code class="language-sql" data-lang="sql"><span>.mode csv tablename
+</span></code></pre>
+</li>
+<li>Importing your csv into the table<pre data-lang="sql" style="background-color:#1e1e1e;color:#dcdcdc;" class="language-sql "><code class="language-sql" data-lang="sql"><span>.import </span><span style="color:#b4cea8;">filename</span><span>.</span><span style="color:#b4cea8;">csv</span><span> tablename
+</span></code></pre>
+</li>
+<li>Start using true SQL!<pre data-lang="sql" style="background-color:#1e1e1e;color:#dcdcdc;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#569cd6;">select </span><span>* </span><span style="color:#569cd6;">from</span><span> tablename </span><span style="color:#569cd6;">limit </span><span style="color:#b5cea8;">10</span><span>;
+</span></code></pre>
+</li>
+</ol>
+<h2 id="interesting-and-helpful-links">Interesting and helpful links:</h2>
+<ul>
+<li>The <a href="https://stackoverflow.com/a/56335100">stackoverflow answer</a> explaining the CSV to SQLite workflow</li>
+<li><a href="https://blog.wesleyac.com/posts/consider-sqlite">Consider SQLite</a> by Wesley Aptekar-Cassels</li>
+<li><a href="https://gcollazo.com/optimal-sqlite-settings-for-django/">Optimal SQLite settings for Django</a> by Giovanni Collazo</li>
+</ul>
+
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://szymonnastaly.com/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://szymonnastaly.com/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
