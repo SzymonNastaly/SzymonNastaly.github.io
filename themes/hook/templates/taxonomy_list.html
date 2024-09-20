@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+
+{% block title %}{{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block header %}
+<header class="space">
+    <a href="{{ config.base_url }}">&LeftArrow; Home</a>
+</header>
+{% endblock header %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title is-2">
+        <span class="icon">
+          <i class="fas fa-tags"></i>
+        </span>
+        Topics
+      </h1>
+      <p class='subtitle is-4'>{{ terms | length }} topics in total</p>
+      <p>
+        {% for tag in terms %}
+        <a href="{{ get_taxonomy_url(kind='topics', name=tag.name) }}" class="mr-4">
+          <span class="icon">
+            <i class="fas fa-tag"></i>
+          </span>
+          <span>{{tag.name}} ({{ tag.pages | length }} posts)</span>
+        </a>
+        <p></p>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock content %}

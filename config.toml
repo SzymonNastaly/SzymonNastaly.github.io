@@ -12,6 +12,12 @@ description = "Personal Website of Szymon Nastaly"
 
 theme = "hook"
 
+taxonomies = [
+    { name = "topics", feed = true, paginate_by = 10 },
+]
+
+default_language = "en"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -20,5 +26,13 @@ highlight_theme = "visual-studio-dark"
 
 [extra]
 links = [
-    { title = "Github", href = "https://github.com/SzymonNastaly" },
+    { title = "Topics", href = "$BASE_URL/topics/"},
+    { title = "About", href = "$BASE_URL/about/"},
+    { title = "Now", href = "$BASE_URL/now/"}
+]
+
+[languages.de]
+generate_feeds = true 
+taxonomies = [
+    { name = "topics", feed = true, paginate_by = 10 },
 ]

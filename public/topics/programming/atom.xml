@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Szymon Nastaly - Programming</title>
+    <subtitle>Personal Website of Szymon Nastaly</subtitle>
+    <link href="https://szymonnastaly.com/topics/programming/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://szymonnastaly.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-07-07T00:00:00+00:00</updated>
+    <id>https://szymonnastaly.com/topics/programming/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Working with Middle Sized CSV Files</title>
+        <published>2024-07-07T00:00:00+00:00</published>
+        <updated>2024-07-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://szymonnastaly.com/til/working-with-middle-sized-csv/" type="text/html"/>
+        <id>https://szymonnastaly.com/til/working-with-middle-sized-csv/</id>
+        
+        <content type="html">&lt;h2 id=&quot;first-ideas&quot;&gt;First Ideas&lt;&#x2F;h2&gt;
+&lt;p&gt;For my bachelor&#x27;s thesis, I had to retrieve some data from a CSV file of around 90MB.&lt;&#x2F;p&gt;
+&lt;p&gt;I first tried working with some CSV-focused tools like the 
+&lt;a href=&quot;https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=mechatroner.rainbow-csv&quot;&gt;Rainbow CSV VSCode&lt;&#x2F;a&gt; extension
+or &lt;a href=&quot;https:&#x2F;&#x2F;csvfiddle.io&#x2F;&quot;&gt;CSVFiddle.io&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Both of those support SQL (or at least SQL-like) queries.
+Unfortunately, both tools break at various points, especially with increasing CSV file sizes or more complex queries.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;use-sqlite&quot;&gt;Use SQLite&lt;&#x2F;h2&gt;
+&lt;p&gt;In the end, I decided to just use SQLite.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new SQLite database: &lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span&gt;sqlite3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b4cea8;&quot;&gt;temp&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b4cea8;&quot;&gt;db
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Setting csv mode and creating a table&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span&gt;.mode csv tablename
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Importing your csv into the table&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span&gt;.import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b4cea8;&quot;&gt;filename&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b4cea8;&quot;&gt;csv&lt;&#x2F;span&gt;&lt;span&gt; tablename
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Start using true SQL!&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;select &lt;&#x2F;span&gt;&lt;span&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;from&lt;&#x2F;span&gt;&lt;span&gt; tablename &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;limit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b5cea8;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;interesting-and-helpful-links&quot;&gt;Interesting and helpful links:&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;a&#x2F;56335100&quot;&gt;stackoverflow answer&lt;&#x2F;a&gt; explaining the CSV to SQLite workflow&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.wesleyac.com&#x2F;posts&#x2F;consider-sqlite&quot;&gt;Consider SQLite&lt;&#x2F;a&gt; by Wesley Aptekar-Cassels&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gcollazo.com&#x2F;optimal-sqlite-settings-for-django&#x2F;&quot;&gt;Optimal SQLite settings for Django&lt;&#x2F;a&gt; by Giovanni Collazo&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Captured Click Events and Browser Extensions</title>
+        <published>2024-05-24T00:00:00+00:00</published>
+        <updated>2024-05-24T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://szymonnastaly.com/til/captured-click-events/" type="text/html"/>
+        <id>https://szymonnastaly.com/til/captured-click-events/</id>
+        
+        <content type="html">&lt;p&gt;In the chrome extension I am developing, I inject a content script UI into the page. This UI is a React interface that has a few buttons (with &lt;code&gt;onClick&lt;&#x2F;code&gt; handlers). &lt;&#x2F;p&gt;
+&lt;p&gt;I found that some sites prevent DOM elements lower in the tree to react to click events. They do this by registering their EventListener with &lt;code&gt;{capture: true}&lt;&#x2F;code&gt; and the &lt;code&gt;stopPropagation()&lt;&#x2F;code&gt; method. &lt;&#x2F;p&gt;
+&lt;p&gt;Unfortunately we cannot do anything against both of those things. &lt;&#x2F;p&gt;
+&lt;p&gt;Ideally we could just remove all of the event listeners completely. Unfortunately I was not able to do that: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;There are no built in browser functions to get the registered event listeners of some DOM element&lt;&#x2F;li&gt;
+&lt;li&gt;I could not get existing npm packages to work in my browser extension.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;What I therefore decided to do is to add listeners for the events: &lt;code&gt;click&lt;&#x2F;code&gt;, &lt;code&gt;mouseDown&lt;&#x2F;code&gt; and &lt;code&gt;mouseUp&lt;&#x2F;code&gt; , but to call the handler only once:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;js&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-js &quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span style=&quot;color:#9b9b9b;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;React, { useRef } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;#39;react&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;MyComponent = () &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;eventHandled = useRef(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;handleEvent = (event) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#608b4e;&quot;&gt;&#x2F;&#x2F; Check if the event has already been handled
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(eventHandled.current) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#608b4e;&quot;&gt;&#x2F;&#x2F; Mark the event as handled
+&lt;&#x2F;span&gt;&lt;span&gt;    eventHandled.current = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#608b4e;&quot;&gt;&#x2F;&#x2F; Event handling logic here
+&lt;&#x2F;span&gt;&lt;span&gt;    console.log(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;#39;Event handled:&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt;, event.type);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#608b4e;&quot;&gt;&#x2F;&#x2F; Reset the handled flag after a delay
+&lt;&#x2F;span&gt;&lt;span&gt;    setTimeout(() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;      eventHandled.current = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    }, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b5cea8;&quot;&gt;300&lt;&#x2F;span&gt;&lt;span&gt;); &lt;&#x2F;span&gt;&lt;span style=&quot;color:#608b4e;&quot;&gt;&#x2F;&#x2F; Adjust the delay as needed
+&lt;&#x2F;span&gt;&lt;span&gt;  };
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span&gt;button
+&lt;&#x2F;span&gt;&lt;span&gt;      onMouseDown={handleEvent}
+&lt;&#x2F;span&gt;&lt;span&gt;      onMouseUp={handleEvent}
+&lt;&#x2F;span&gt;&lt;span&gt;      onClick={handleEvent}
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      Click Me
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;button&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  );
+&lt;&#x2F;span&gt;&lt;span&gt;};
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;export default &lt;&#x2F;span&gt;&lt;span&gt;MyComponent;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;In the case that a website captures all three of those events, this will of course still not help. But in my testing I have only found websites that were capturing the click event. In that case, the MouseDown event will still be available for the browser extension.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

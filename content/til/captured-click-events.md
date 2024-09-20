@@ -2,6 +2,8 @@
 title = "Captured Click Events and Browser Extensions"
 description = "How to (nearly) always handle clicks in the content script UI"
 date = 2024-05-24
+[taxonomies]
+topics=["Programming"]
 +++
 In the chrome extension I am developing, I inject a content script UI into the page. This UI is a React interface that has a few buttons (with `onClick` handlers). 
 

@@ -10,6 +10,9 @@
         <loc>https://szymonnastaly.com/blog/</loc>
     </url>
     <url>
+        <loc>https://szymonnastaly.com/de/</loc>
+    </url>
+    <url>
         <loc>https://szymonnastaly.com/now/</loc>
     </url>
     <url>
@@ -22,5 +25,14 @@
     <url>
         <loc>https://szymonnastaly.com/til/working-with-middle-sized-csv/</loc>
         <lastmod>2024-07-07</lastmod>
+    </url>
+    <url>
+        <loc>https://szymonnastaly.com/topics/</loc>
+    </url>
+    <url>
+        <loc>https://szymonnastaly.com/topics/programming/</loc>
+    </url>
+    <url>
+        <loc>https://szymonnastaly.com/topics/programming/page/1/</loc>
     </url>
 </urlset>

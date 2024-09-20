@@ -3,9 +3,9 @@ title = "Now"
 
 extra.in_header = true
 +++
-Right now I'm in my last semester of my B.Sc. in Computer Science at ETH Zurich.
-For my bachelors thesis, I am working on [CookieAudit](https://github.com/SzymonNastaly/CookieAudit).
+I have finished my Bachelor of Science in Computer Science at ETH Zurich.
 
-It is a browser extension for checking if websites are EU compliant in their cookie usage.
+Between September '24 and January '25 I am an intern at the German University of Technology in Oman.
+I will be writing about my travels in this blog.
 
-My favorite course right now is [Information Security](https://infsec.ethz.ch/education/ss2024/infsec.html).
+I am following a course on the history of the Chinese economy and a course on Network Security.

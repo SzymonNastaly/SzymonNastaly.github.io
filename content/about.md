@@ -8,3 +8,5 @@ extra.in_header = true
 My name is Szymon Nastaly.
 
 I study Computer Science at ETH Zürich.
+
+You can find me on [X](https://x.com/snastaly) (DM me!) and on [Github](https://github.com/SzymonNastaly).

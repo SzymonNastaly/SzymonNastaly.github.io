@@ -2,6 +2,8 @@
 title = "Working with Middle Sized CSV Files"
 description = "How to quickly get all the data you need."
 date = 2024-07-07
+[taxonomies]
+topics=["Programming"]
 +++
 ## First Ideas
 For my bachelor's thesis, I had to retrieve some data from a CSV file of around 90MB.
