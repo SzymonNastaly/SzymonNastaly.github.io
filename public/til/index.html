@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Website of Szymon Nastaly">
+    <title>Szymon Nastaly | TILs</title>
+    
+    <link rel="stylesheet" href="https://szymonnastaly.com/style.css?h=06bd78c2606acb7f41ff">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://szymonnastaly.com/rss.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;szymonnastaly.com">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>TILs</h1>
+    
+    
+    <h2>2024</h2>
+    <ul>
+        
+        <li><a href="https:&#x2F;&#x2F;szymonnastaly.com&#x2F;til&#x2F;working-with-middle-sized-csv&#x2F;">Working with Middle Sized CSV Files</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;szymonnastaly.com&#x2F;til&#x2F;captured-click-events&#x2F;">Captured Click Events and Browser Extensions</a></li>
+        
+    </ul>
+    
+    
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://szymonnastaly.com/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://szymonnastaly.com/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
