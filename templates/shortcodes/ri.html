@@ -1,0 +1,38 @@
+{% set mdata = get_image_metadata(path=page.colocated_path ~ path) %} {% set aspect_ratio =
+mdata.width / mdata.height %} {% if aspect_ratio >= 1 %} {# Landscape or square
+image #} {% set small = resize_image(path=page.colocated_path ~ path, width=800, op="fit_width") %} {%
+set medium = resize_image(path=page.colocated_path ~ path, width=1200, op="fit_width") %} {% set large
+= resize_image(path=page.colocated_path ~ path, width=1600, op="fit_width") %} {% else %} {# Portrait
+image #} {% set small = resize_image(path= page.colocated_path ~ path, height=600, op="fit_height") %}
+{% set medium = resize_image(path=page.colocated_path ~ path, height=1000, op="fit_height") %} {% set
+large = resize_image(path=page.colocated_path ~ path, height=1400, op="fit_height") %} {% endif %}
+<figure style="margin: 1rem auto; text-align: center">
+  <img
+    src="{{ small.url }}"
+    srcset="{{ small.url }} {{ small.width }}w, 
+                {{ medium.url }} {{ medium.width }}w, 
+                {{ large.url }} {{ large.width }}w"
+    sizes="(max-width: {{ small.width }}px) {{ small.width }}px,
+               (max-width: {{ medium.width }}px) {{ medium.width }}px,
+               {{ large.width }}px"
+    width="{{ small.width }}"
+    height="{{ small.height }}"
+    loading="lazy"
+    alt="{{ caption | default(value='') }}"
+    style="
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    "
+  />
+  {% if caption %}
+  <figcaption
+    class="secondary"
+    style="margin-top: 0.2em; text-align: center; font-size: 0.9em"
+  >
+    {{ caption }}
+  </figcaption>
+  {% endif %}
+</figure>

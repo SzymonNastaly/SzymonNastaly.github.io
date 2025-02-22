@@ -11,5 +11,4 @@ My name is Szymon Nastaly.
 I study Computer Science at ETH Zürich.
 
 You can find me on [X](https://x.com/snastaly) (DM me!) and on [Github](https://github.com/SzymonNastaly).
-Or, write me an email to [mail@szymonnastaly.com](mailto:mail@szymonnastaly.com)
-
+Or, write me an email to _mail @ this domain_.
