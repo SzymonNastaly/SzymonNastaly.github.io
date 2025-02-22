@@ -1,0 +1,106 @@
++++
+title = "Four Months in Oman"
+date = 2025-01-26
+description = "My experiences and impressions from spending four months in Oman"
+
+[taxonomies]
+topics = ["travel"]
+
+[extra]
+toc = true
++++
+
+{{ ri(
+    path="wadi-shab.jpg",
+    caption="Me in the Wadi Shab"
+) }}
+
+## Notes
+
+After finishing my Bachelors thesis at ETH, I spent four months (September 2024 to January 2025) at the German University of Technology where I worked
+as a teaching assistant.
+The work was fine and I really liked my colleagues, but the main goal of me and my girlfriend (who also went to Oman) was to get to know a completely
+different country.
+Therefore, we have tried to use the occasion to travel as much as possible throughout the country and spend time with friends getting to know the
+very different culture.
+
+### Our Travels
+
+Oman is a huge country that you can mostly travel by yourself via the well-maintained road and highway
+network.
+But because there is effectively no public transport, you will definitely need to rent a car!
+
+{{ ri(
+    path="highway-view.jpg",
+    caption="Typical landscape when traveling on the highway"
+) }}
+
+Oman has a beautiful geology, nature and beautiful cities one should visit.
+_Wadis_ (Arabic word for river valleys) have beautiful greenery which is very rare in the rest of the desert country.
+The most famous and widely visited wadi is called _Wadi Shab_ and I definitely recommend a visit!
+
+But there are also many others.
+
+{{ ri(
+    path="wadi-qurai.jpg",
+    caption="Wadi Qurai is less frequented by tourists"
+) }}
+
+In many parts of Oman one can still find remainings of life before technology.
+In the old village of Ibra, we learned about have traditionally small villages were built.
+There are also many forts throughout Oman: Nizwa (the old capital) has the Nizwa Fort and a beautiful old city.
+
+{{ ri(
+    path="birkat-al-mouz-ruins.jpg",
+    caption="Ruins in Birkat al Mouz, close to Nizwa"
+) }}
+
+But there are also forts in Bahla, Sohar, and many others.
+
+{{ ri(
+    path="city-bahla.jpg",
+    caption="View from Bahla Fort"
+) }}
+
+And of course, one should also see the desert!
+While the majority of central Oman is considered desert, only small parts of it have the beautiful sand dunes.
+The most famous location for those is called _Wahiba sands_.
+Together with multiple other cars and professional guides (this is recommended if you don't want to get lost or stuck),
+we drove through the desert, camped on a dune.
+
+{{ ri(
+    path="wahabi-sands-dune.jpg",
+    caption="Desert view in the morning"
+) }}
+
+On the second day, we continued west to beautiful sandy beaches.
+
+{{ ri(
+    path="beach-gulf-of-masira.jpg",
+    caption="Camping on a beach at the Gulf of Masira (western coast of Oman)"
+) }}
+
+Oman also has a few mountains, such _Jabal Shams_ and _Jabal Akhdar_.
+They are very popular because of their cooler temperatures, hiking paths.
+Both are very beautiful, and we even camped on Jabal Shams (and it was freezing cold at night!).
+There, we were also invited for an evening fireside chat and tea by three Omanis - this is very
+indicative of the welcoming Omani culture.
+
+{{ ri(
+    path="jabal-shams-tea.jpg",
+    caption="Enjoying hot tea on the cold Jabal Shams"
+) }}
+
+### Culture and People
+
+Before coming to Oman, I had never visited any Arab or even Muslim country.
+Although many things in Oman are very different, we fortunately never had any true culture shock because our friends were always happy to answer any stupid questions, and Omanis are generally very accepting to Westerners not adhering to the Omani norms.
+For example, when you google "Omani people" you will see the typical cloths of men and women: white dishdashas and black abayas.
+So as a westerner, you will always stick out. Still you should wear modest clothing - covering knees and shoulders
+(in general I always wore long pants, and most of the time long-sleeved shirts).
+But if you would wear something like shorts, no Omani would ever come up to you and comment on it - but more conservative people would definitely find it not ideal.
+
+We also noticed other big differences.
+Casual dating in the western understanding is basically non-existent.
+Young people from conservative households basically have to marry first.
+And even in less strict families, young people restrict their dating to meeting and strolling on campus, sometimes going to public places like cinemas, or coffee places - but never to each others home.
