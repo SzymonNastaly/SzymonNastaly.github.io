@@ -14,16 +14,28 @@
           <author>Unknown</author>
           <link>https://szymonnastaly.com/blog/four-months-in-oman/</link>
           <guid>https://szymonnastaly.com/blog/four-months-in-oman/</guid>
-          <description xml:base="https://szymonnastaly.com/blog/four-months-in-oman/">       
+          <description xml:base="https://szymonnastaly.com/blog/four-months-in-oman/">
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.27fa6b96b6e4cc53.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.27fa6b96b6e4cc53.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.30865ad834488d6d.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.69b467445a4a2902.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.34070133a145e50a.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.27fa6b96b6e4cc53.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.30865ad834488d6d.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-shab.69b467445a4a2902.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -46,26 +58,36 @@
   
 &lt;&#x2F;figure&gt;
 &lt;h2 id=&quot;notes&quot;&gt;Notes&lt;&#x2F;h2&gt;
-&lt;p&gt;After finishing my Bachelors thesis at ETH, I spent four months (September 2024 to January 2025) at the German University of Technology where I worked
+&lt;p&gt;After finishing my Bachelors at ETH Zurich, I spent four months (September 2024 to January 2025) at the German University of Technology working
 as a teaching assistant.
-The work was fine and I really liked my colleagues, but the main goal of me and my girlfriend (who also went to Oman) was to get to know a completely
-different country.
-Therefore, we have tried to use the occasion to travel as much as possible throughout the country and spend time with friends getting to know the
-very different culture.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;our-travels&quot;&gt;Our Travels&lt;&#x2F;h3&gt;
+The main goal of me and my girlfriend (who also went to Oman) was to get to know a completely different country.
+Therefore, we used every occasion to travel as much as possible and spent time with friends getting to know a different culture.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;our-travels&quot;&gt;Our Travels&lt;&#x2F;h2&gt;
 &lt;p&gt;Oman is a huge country that you can mostly travel by yourself via the well-maintained road and highway
 network.
 But because there is effectively no public transport, you will definitely need to rent a car!&lt;&#x2F;p&gt;
-       
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.1659f3434e396158.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.1659f3434e396158.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.3d68584c4c214ec7.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.6a6e7988b6ed52aa.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.8baf4f245774f827.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.1659f3434e396158.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.3d68584c4c214ec7.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;highway-view.6a6e7988b6ed52aa.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;410&quot;
     loading=&quot;lazy&quot;
@@ -89,21 +111,32 @@ But because there is effectively no public transport, you will definitely need t
 &lt;&#x2F;figure&gt;
 &lt;p&gt;Oman has a beautiful geology, nature and beautiful cities one should visit.
 &lt;em&gt;Wadis&lt;&#x2F;em&gt; (Arabic word for river valleys) have beautiful greenery which is very rare in the rest of the desert country.
-The most famous and widely visited wadi is called &lt;em&gt;Wadi Shab&lt;&#x2F;em&gt; and I definitely recommend a visit!&lt;&#x2F;p&gt;
-&lt;p&gt;But there are also many others.&lt;&#x2F;p&gt;
+The most famous and widely visited wadi is called &lt;em&gt;Wadi Shab&lt;&#x2F;em&gt; (see picture in the beginning of this blogpost).
+But there are also many others.&lt;&#x2F;p&gt;
+
+
+
+
     
-  
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
-    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.f124751fb6b603e6.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.f124751fb6b603e6.jpg 450w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.05461f6df83b85a7.jpg 750w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.a55b528b1cce7974.jpg 1050w&quot;
-    sizes=&quot;(max-width: 450px) 450px,
-               (max-width: 750px) 750px,
-               1050px&quot;
-    width=&quot;450&quot;
-    height=&quot;600&quot;
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.198e16e46e9f8263.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.6ad8d7fd4d42a417.jpg 375w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.198e16e46e9f8263.jpg 600w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.b5f9203741e8c5cc.jpg 900w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wadi-qurai.4377762a45c88d95.jpg 1200w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;600&quot;
+    height=&quot;800&quot;
     loading=&quot;lazy&quot;
     alt=&quot;Wadi Qurai is less frequented by tourists&quot;
     style=&quot;
@@ -125,17 +158,29 @@ The most famous and widely visited wadi is called &lt;em&gt;Wadi Shab&lt;&#x2F;e
 &lt;&#x2F;figure&gt;
 &lt;p&gt;In many parts of Oman one can still find remainings of life before technology.
 In the old village of Ibra, we learned about have traditionally small villages were built.
-There are also many forts throughout Oman: Nizwa (the old capital) has the Nizwa Fort and a beautiful old city.&lt;&#x2F;p&gt;
-       
+There are also many forts throughout Oman, such as in Nizwa (the old capital, it also has a beautiful old city) or Bahla.&lt;&#x2F;p&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.143069db7a7573c9.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.143069db7a7573c9.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.e14b5541c6624172.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.329794a40d29e9d8.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.1c46d2cc05b488e7.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.143069db7a7573c9.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.e14b5541c6624172.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;birkat-al-mouz-ruins.329794a40d29e9d8.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -157,17 +202,28 @@ There are also many forts throughout Oman: Nizwa (the old capital) has the Nizwa
   &lt;&#x2F;figcaption&gt;
   
 &lt;&#x2F;figure&gt;
-&lt;p&gt;But there are also forts in Bahla, Sohar, and many others.&lt;&#x2F;p&gt;
-       
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.ee3fb22ad96fb320.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.ee3fb22ad96fb320.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.f141680fd4124fb0.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.dc777d53720d3a35.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.8824cb9eab675fa7.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.ee3fb22ad96fb320.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.f141680fd4124fb0.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;city-bahla.dc777d53720d3a35.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -192,18 +248,30 @@ There are also many forts throughout Oman: Nizwa (the old capital) has the Nizwa
 &lt;p&gt;And of course, one should also see the desert!
 While the majority of central Oman is considered desert, only small parts of it have the beautiful sand dunes.
 The most famous location for those is called &lt;em&gt;Wahiba sands&lt;&#x2F;em&gt;.
-Together with multiple other cars and professional guides (this is recommended if you don&#x27;t want to get lost or stuck),
-we drove through the desert, camped on a dune.&lt;&#x2F;p&gt;
-       
+Together with multiple other cars and professional guides (this is recommended if you don&#x27;t want to die),
+we drove through the desert and camped on a dune.&lt;&#x2F;p&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.9bb2d15ac2c37dcf.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.9bb2d15ac2c37dcf.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.4e267c0c45630b01.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.198950bded552d03.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.411ff775c5f4abd7.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.9bb2d15ac2c37dcf.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.4e267c0c45630b01.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;wahabi-sands-dune.198950bded552d03.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -226,16 +294,28 @@ we drove through the desert, camped on a dune.&lt;&#x2F;p&gt;
   
 &lt;&#x2F;figure&gt;
 &lt;p&gt;On the second day, we continued west to beautiful sandy beaches.&lt;&#x2F;p&gt;
-       
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.7548cb2209493a12.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.7548cb2209493a12.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.96d4e2f9320af057.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.7e681e7794aa2e4a.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.27029be8b747af3e.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.7548cb2209493a12.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.96d4e2f9320af057.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;beach-gulf-of-masira.7e681e7794aa2e4a.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -258,20 +338,32 @@ we drove through the desert, camped on a dune.&lt;&#x2F;p&gt;
   
 &lt;&#x2F;figure&gt;
 &lt;p&gt;Oman also has a few mountains, such &lt;em&gt;Jabal Shams&lt;&#x2F;em&gt; and &lt;em&gt;Jabal Akhdar&lt;&#x2F;em&gt;.
-They are very popular because of their cooler temperatures, hiking paths.
+They are popular because of their cooler temperatures and hiking paths.
 Both are very beautiful, and we even camped on Jabal Shams (and it was freezing cold at night!).
-There, we were also invited for an evening fireside chat and tea by three Omanis - this is very
+There, we were also invited for an fireside chat and tea by three Omanis - this is very
 indicative of the welcoming Omani culture.&lt;&#x2F;p&gt;
-       
+
+
+
+
+    
+    
+    
+    
+    
+
+
 &lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
   &lt;img
     src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.eb76c82f11b307c6.jpg&quot;
-    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.eb76c82f11b307c6.jpg 800w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.92e6b3147cc146ad.jpg 1200w, 
-                https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.648cd48ba9a6b7c0.jpg 1600w&quot;
-    sizes=&quot;(max-width: 800px) 800px,
-               (max-width: 1200px) 1200px,
-               1600px&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.68a7593b12a28042.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.eb76c82f11b307c6.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.92e6b3147cc146ad.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams-tea.648cd48ba9a6b7c0.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
     width=&quot;800&quot;
     height=&quot;600&quot;
     loading=&quot;lazy&quot;
@@ -293,7 +385,7 @@ indicative of the welcoming Omani culture.&lt;&#x2F;p&gt;
   &lt;&#x2F;figcaption&gt;
   
 &lt;&#x2F;figure&gt;
-&lt;h3 id=&quot;culture-and-people&quot;&gt;Culture and People&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;culture-and-people&quot;&gt;Culture and People&lt;&#x2F;h2&gt;
 &lt;p&gt;Before coming to Oman, I had never visited any Arab or even Muslim country.
 Although many things in Oman are very different, we fortunately never had any true culture shock because our friends were always happy to answer any stupid questions, and Omanis are generally very accepting to Westerners not adhering to the Omani norms.
 For example, when you google &quot;Omani people&quot; you will see the typical cloths of men and women: white dishdashas and black abayas.
@@ -304,6 +396,228 @@ But if you would wear something like shorts, no Omani would ever come up to you 
 Casual dating in the western understanding is basically non-existent.
 Young people from conservative households basically have to marry first.
 And even in less strict families, young people restrict their dating to meeting and strolling on campus, sometimes going to public places like cinemas, or coffee places - but never to each others home.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;would-i-do-it-again&quot;&gt;Would I do it again?&lt;&#x2F;h2&gt;
+&lt;p&gt;I really enjoyed the four months in Oman. Traveling and getting to know the country and people was a great experience.
+I must note however, that I was really lucky with the Computer Science department at the university - the colleagues and professors were really great!
+Friends from other departments however, often had more stressful environments.
+Therefore, if you are a CS student and think about doing the same internship - do it!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;&#x2F;h2&gt;
+&lt;p&gt;Next, some more photos I want to show you (but didn&#x27;t manage to include in the post).&lt;&#x2F;p&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
+&lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
+  &lt;img
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;camel-in-car.d24be1abde7aff7a.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;camel-in-car.2a3ec1d233981bd9.jpg 375w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;camel-in-car.d24be1abde7aff7a.jpg 600w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;camel-in-car.0194e7a883300f9b.jpg 900w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;camel-in-car.68b1c61fb7ff19f2.jpg 1200w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;600&quot;
+    height=&quot;800&quot;
+    loading=&quot;lazy&quot;
+    alt=&quot;Just a camel on pickup truck&quot;
+    style=&quot;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    &quot;
+  &#x2F;&gt;
+  
+  &lt;figcaption
+    class=&quot;secondary&quot;
+    style=&quot;margin-top: 0.2em; text-align: center; font-size: 0.9em&quot;
+  &gt;
+    Just a camel on pickup truck
+  &lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
+&lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
+  &lt;img
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams.aa00c6787680a8fb.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams.bee3442c6311bd89.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams.aa00c6787680a8fb.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams.67c6860bf8e44c91.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;jabal-shams.0a32900847d82ed9.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;800&quot;
+    height=&quot;600&quot;
+    loading=&quot;lazy&quot;
+    alt=&quot;Jabal Shams (one of the mountains in Oman)&quot;
+    style=&quot;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    &quot;
+  &#x2F;&gt;
+  
+  &lt;figcaption
+    class=&quot;secondary&quot;
+    style=&quot;margin-top: 0.2em; text-align: center; font-size: 0.9em&quot;
+  &gt;
+    Jabal Shams (one of the mountains in Oman)
+  &lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
+&lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
+  &lt;img
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;goats-in-mountains.7a737791e02df631.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;goats-in-mountains.fd36cd2cd5c463f7.jpg 375w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;goats-in-mountains.7a737791e02df631.jpg 600w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;goats-in-mountains.ae56f7c6c0114872.jpg 900w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;goats-in-mountains.399e492542a60a0c.jpg 1200w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;600&quot;
+    height=&quot;800&quot;
+    loading=&quot;lazy&quot;
+    alt=&quot;You often see cute, wild goats in the mountains&quot;
+    style=&quot;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    &quot;
+  &#x2F;&gt;
+  
+  &lt;figcaption
+    class=&quot;secondary&quot;
+    style=&quot;margin-top: 0.2em; text-align: center; font-size: 0.9em&quot;
+  &gt;
+    You often see cute, wild goats in the mountains
+  &lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
+&lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
+  &lt;img
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;typical-inner-city-street.3d0b9fcb35427076.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;typical-inner-city-street.8babcc037949deb8.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;typical-inner-city-street.3d0b9fcb35427076.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;typical-inner-city-street.0915082f90f91081.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;typical-inner-city-street.38abfd92c5bf99d4.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;800&quot;
+    height=&quot;600&quot;
+    loading=&quot;lazy&quot;
+    alt=&quot;Typical inner city street with street food vendors&quot;
+    style=&quot;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    &quot;
+  &#x2F;&gt;
+  
+  &lt;figcaption
+    class=&quot;secondary&quot;
+    style=&quot;margin-top: 0.2em; text-align: center; font-size: 0.9em&quot;
+  &gt;
+    Typical inner city street with street food vendors
+  &lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+
+
+
+
+    
+    
+    
+    
+    
+
+
+&lt;figure style=&quot;margin: 1rem auto; text-align: center&quot;&gt;
+  &lt;img
+    src=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;misfat-al-abrayeen-wadi.67ef93e11bc36211.jpg&quot;
+    srcset=&quot;https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;misfat-al-abrayeen-wadi.3c1b1e8d263d8b7e.jpg 400w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;misfat-al-abrayeen-wadi.67ef93e11bc36211.jpg 800w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;misfat-al-abrayeen-wadi.bc99db07c2be5e1e.jpg 1200w,
+            https:&amp;#x2F;&amp;#x2F;szymonnastaly.com&amp;#x2F;processed_images&amp;#x2F;misfat-al-abrayeen-wadi.b0fc40c30944343a.jpg 1600w&quot;
+    sizes=&quot;(max-width: 480px) calc(100vw - 2rem),
+           (max-width: 768px) calc(100vw - 3rem),
+           (max-width: 1200px) calc(75vw),
+           1000px&quot;
+    width=&quot;800&quot;
+    height=&quot;600&quot;
+    loading=&quot;lazy&quot;
+    alt=&quot;Wadi next to the historic village &amp;#x27;Misfat al Abrayeen&amp;#x27; &quot;
+    style=&quot;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 0 auto;
+    &quot;
+  &#x2F;&gt;
+  
+  &lt;figcaption
+    class=&quot;secondary&quot;
+    style=&quot;margin-top: 0.2em; text-align: center; font-size: 0.9em&quot;
+  &gt;
+    Wadi next to the historic village &amp;#x27;Misfat al Abrayeen&amp;#x27; 
+  &lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
 </description>
       </item>
       <item>
